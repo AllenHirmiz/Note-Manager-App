@@ -1,13 +1,6 @@
 [
-  9,
-  {
-    "title": "dfsdfsdfsdf",
-    "text": "sdfsdfsdf",
-    "id": 6
-  },
-  {
-    "title": "sdfsdfsdfsdf",
-    "text": "sdfsdfsdf",
-    "id": 7
-  }
+    {
+        "title":"Test Title",
+        "text":"Test text"
+    }
 ]
