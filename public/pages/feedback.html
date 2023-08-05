@@ -3,8 +3,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UI/UX Tips</title>
-    <link rel="stylesheet" href="./styles/index.css" />
+    <title>UI/UX Tips - Feedback</title>
+    <link rel="stylesheet" href="../styles/index.css" />
   </head>
   <body>
     <section class="top">
@@ -12,44 +12,44 @@
         <div
           class="container flex-row justify-space-between-lg justify-center align-center"
         >
-          <h1 class="m-0">UI/UX Tips</h1>
+          <h1 class="m-0">UI/UX Tips - Feedback</h1>
           <p class="m-0">Get practical advice from other developers.</p>
-          <a href="/feedback" class="m-0">Submit Feedback</a>
+          <a href="/" class="m-0">Go back</a>
         </div>
       </header>
     </section>
-    <section class="tip-form">
+    <h1 class="text-center">Submit Feedback</h1>
+    <section class="feedback-form">
       <form
         class="flex-row justify-center justify-space-between-md align-center"
-        id="tip-form"
+        id="feedback-form"
       >
         <div class="col-12">
           <textarea
-            name="tipText"
-            id="tipText"
-            placeholder="Here's a new UI tip..."
+            name="feedbackText"
+            id="feedbackText"
+            placeholder="Enter feedback here"
             value=""
             class="form-input w-100"
           ></textarea>
         </div>
         <div class="col-12 col-lg-9">
           <input
-            name="tipUsername"
-            id="tipUsername"
-            placeholder="Add your name to get credit for the thought..."
-            value=""
+            name="feedbackUsername"
+            id="feedbackUsername"
+            placeholder="Username here (optional)"
+            value="anonymous"
             class="form-input w-100"
           />
         </div>
 
         <div class="col-12 col-lg-3">
           <button class="btn btn-primary btn-block py-3" type="submit">
-            Add Tip
+            Add feedback
           </button>
         </div>
       </form>
     </section>
-    <section class="tips" id="tip-container"></section>
-    <script src="./scripts/index.js"></script>
+    <script src="./scripts/feedback.js"></script>
   </body>
 </html>
